@@ -15,7 +15,7 @@
 ---
 
 ## 1. Contexto e Objetivos
-O objetivo deste projeto é construir um caderno temático focado no **Bitcoin**, explorando seus fundamentos técnicos e macroeconômicos. A intenção é transformar dados densos em um guia dinâmico e acessível para iniciantes, utilizando a inteligência artificial como ferramenta de aprendizagem ativa.
+O objetivo deste projeto é construir um caderno temático focado no **Bitcoin**, explorando seus fundamentos técnicos e macroeconômicos. A intenção é transformar dados em um guia dinâmico e acessível para iniciantes, utilizando a inteligência artificial como ferramenta de aprendizagem ativa.
 
 * **Objetivos de Estudo:**
     * Compreender os pilares da tecnologia Blockchain (imutabilidade, hashing e consenso).
@@ -34,13 +34,13 @@ A seleção de fontes foi estrategicamente planejada para balancear teoria técn
 
 ---
 
-## 3. Engenharia de Prompts (Troubleshooting)
+## 3. Engenharia de Prompts
 O desenvolvimento deste projeto envolveu testes iterativos de prompts para obter o melhor nível de profundidade do NotebookLM. Abaixo está a documentação do processo de refinamento:
 
 ### 🔄 Rodada 1: Resumo Estruturado
 * **Prompt Inicial (Ineficiente):** *"Resume o que as fontes falam sobre o Bitcoin."*
 * **Resultado:** Resposta genérica e misturada, sem separação lógica entre economia e tecnologia.
-* **Prompt Refinado (Estratégico):** *"Com base exclusivamente nas fontes fornecidas, crie um resumo estruturado sobre o Bitcoin dividido em três blocos claros: 1. O problema financeiro tradicional que ele tenta resolver. 2. Como a Blockchain funciona como uma costura digital (mencione os hashes e os blocos). 3. A importância econômica da escassez de 21 milhões de unidades apresentada no livro 'O Padrão Bitcoin'."*
+* **Prompt Refinado (Estratégico):** *"Com base exclusivamente nas fontes fornecidas, crie um resumo estruturado sobre o Bitcoin dividido em três blocos claros: 1) O problema financeiro tradicional que ele tenta resolver. 2) Como a Blockchain funciona como uma costura digital (mencione os hashes e os blocos). 3) A importância econômica da escassez de 21 milhões de unidades apresentada no livro 'O Padrão Bitcoin'."*
 * **Resultado:** Resumo preciso, segmentado e com forte embasamento teórico.
 
 ### 🔄 Rodada 2: Construção do Glossário
@@ -72,7 +72,7 @@ Os Hashes: A "mágica" dessa costura digital reside no hash, um código criptogr
 
 O Encadeamento: O hash de um bloco (bloco 1) é inserido no conteúdo do bloco seguinte (bloco 2) antes de ser processado, criando uma conexão indissolúvel.
 
-Essa estrutura é comparada a uma costura digital porque, se qualquer informação em um bloco antigo for alterada (mesmo um espaço ou vírgula), seu hash mudará completamente, tornando-o incompatível com o bloco seguinte e quebrando toda a sequência posterior da cadeia.
+Essa estrutura é comparada a uma costura digital porque, se qualquer informação em um bloco antigo for alterada (mesmo um espaço ou vírgula), seu hash mudará completamente, tornando o incompatível com o bloco seguinte e quebrando toda a sequência posterior da cadeia.
 
 3) A Importância Econômica da Escassez
 O livro O Padrão Bitcoin argumenta que a oferta estritamente limitada de 21 milhões de unidades eleva o Bitcoin ao status de moeda forte, comparável ou superior ao ouro.
