@@ -34,13 +34,13 @@ A seleção de fontes foi estrategicamente planejada para balancear teoria técn
 
 ---
 
-## 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
+## 3. Engenharia de Prompts (Troubleshooting)
 O desenvolvimento deste projeto envolveu testes iterativos de prompts para obter o melhor nível de profundidade do NotebookLM. Abaixo está a documentação do processo de refinamento:
 
 ### 🔄 Rodada 1: Resumo Estruturado
 * **Prompt Inicial (Ineficiente):** *"Resume o que as fontes falam sobre o Bitcoin."*
 * **Resultado:** Resposta genérica e misturada, sem separação lógica entre economia e tecnologia.
-* **Prompt Refinado (Estratégico):** *"Com base exclusivamente nas fontes fornecidas, crie um resumo estruturado sobre o Bitcoin dividido em três blocos claros: 1) O problema financeiro tradicional que ele tenta resolver; 2) Como a Blockchain funciona como uma costura digital (mencione os hashes e os blocos); 3) A importância econômica da escassez de 21 milhões de unidades apresentada no livro 'O Padrão Bitcoin'."*
+* **Prompt Refinado (Estratégico):** *"Com base exclusivamente nas fontes fornecidas, crie um resumo estruturado sobre o Bitcoin dividido em três blocos claros: 1. O problema financeiro tradicional que ele tenta resolver. 2. Como a Blockchain funciona como uma costura digital (mencione os hashes e os blocos). 3. A importância econômica da escassez de 21 milhões de unidades apresentada no livro 'O Padrão Bitcoin'."*
 * **Resultado:** Resumo preciso, segmentado e com forte embasamento teórico.
 
 ### 🔄 Rodada 2: Construção do Glossário
