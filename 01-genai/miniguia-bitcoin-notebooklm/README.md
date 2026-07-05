@@ -3,7 +3,9 @@
 <details>
 <summary>📸 Clique aqui para ver o print das instruções do desafio na DIO</summary>
 
-<img width="1366" height="608" alt="Captura" src="https://github.com/user-attachments/assets/abe0b706-b454-4c7c-9cbd-3ee0918ec10e" />
+<img width="440" height="390" alt="Entendendo_o_desafio_Dio" src="https://github.com/user-attachments/assets/3acdadcd-f247-4039-80c1-61ff2661d4a3" />
+
+
 
 
 
