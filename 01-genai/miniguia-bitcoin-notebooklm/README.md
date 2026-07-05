@@ -35,7 +35,7 @@ A seleção de fontes foi estrategicamente planejada para balancear teoria técn
 ---
 
 ## 3. Engenharia de Prompts e "Cicatrizes" (Troubleshooting)
-O desenvolvimento deste projeto envolveu testes iterativos de prompts para obter o melhor nível de profundidade do NotebookLM. Abaixo está a documentação do processo de refinamento (*"cicatrizes" de desenvolvimento*):
+O desenvolvimento deste projeto envolveu testes iterativos de prompts para obter o melhor nível de profundidade do NotebookLM. Abaixo está a documentação do processo de refinamento:
 
 ### 🔄 Rodada 1: Resumo Estruturado
 * **Prompt Inicial (Ineficiente):** *"Resume o que as fontes falam sobre o Bitcoin."*
